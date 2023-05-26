@@ -25,7 +25,7 @@ use axum::{routing::get, Router};
 #[tokio::main]
 async fn main() {
     // We add our function handler for our GET method which returns the response Hello, world!
-    // when executed by axum.
+    // when the root route is called. Example http://127.0.0.1
     let app = Router::new().route("/", get(|| async { "Hello, world!" }));
 
     // We will then load and bind axums server to 0.0.0.0:3000 which means it handles any requests
