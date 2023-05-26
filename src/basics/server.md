@@ -1,17 +1,3 @@
-# Axum 
-
-[Axum] itself is for developing a server that handles routing, loading and utilizing [Tower](https://crates.io/crates/tower)
-middleware, extracting data from requests headers and cookies and sending generated responses to the client.
-Axum is built ontop of [Hyper](https://crates.io/crates/hyper) which is an HTTP client and [Tokio](https://crates.io/crates/tokio)
-which is a async event handler.
-
-# What Axum Does
-
-[Axum] retrieves and handles all the requests from hyper, routing them via routes to move the requests
-through the layering of middleware and into the methods(GET, PUT, ETC..) function handler.
-It then handles the request and generates a response which then flows back through the laying of middleware
-in reverse of the request. Hyper then returns the response to the end client.
-
 # Hello World Example
 
 In the following example we will show the basics of how to set up a very basic 
@@ -41,6 +27,3 @@ async fn main() {
 
 
 # [Next](routing.md)
-
-
-[Axum]: https://github.com/tokio-rs/axum
