@@ -1,7 +1,9 @@
 # Introduction
 
 In this tutorial, we aim to teach how to build web applications using [axum] web
-framework.
+framework. If you are just getting started with rust we do recommend that you start 
+with the [Rust Programming book](https://doc.rust-lang.org/stable/book/) or
+if you prefer a PDF book you can take a look at [The Rust Programming Language book](https://edu.anarcho-copy.org/Programming%20Languages/Rust/rust-programming-language-steve-klabnik.pdf) .
 
 ## What is axum?
 
